@@ -102,7 +102,16 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-        //vSeeds.push_back(CDNSSeedData("0",  "dns0.dnseeding.xyz"));
+        vSeeds.push_back(CDNSSeedData("0",  "dns0.digitalprice.org"));
+        vSeeds.push_back(CDNSSeedData("1",  "dns1.digitalprice.org"));
+        vSeeds.push_back(CDNSSeedData("2",  "dns2.digitalprice.org"));
+        vSeeds.push_back(CDNSSeedData("3",  "dns3.digitalprice.org"));
+        vSeeds.push_back(CDNSSeedData("4",  "dns4.digitalprice.org"));
+        vSeeds.push_back(CDNSSeedData("5",  "dns5.digitalprice.org"));
+        vSeeds.push_back(CDNSSeedData("6",  "dns6.digitalprice.org"));
+        vSeeds.push_back(CDNSSeedData("7",  "dns7.digitalprice.org"));
+        vSeeds.push_back(CDNSSeedData("8",  "dns8.digitalprice.org"));
+        vSeeds.push_back(CDNSSeedData("9",  "dns9.digitalprice.org"));
 
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
